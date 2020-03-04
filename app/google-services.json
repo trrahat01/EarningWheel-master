@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "638681488269",
+    "firebase_url": "https://earningwheel.firebaseio.com",
+    "project_id": "earningwheel",
+    "storage_bucket": "earningwheel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638681488269:android:c68e76fb3f2197d1",
+        "android_client_info": {
+          "package_name": "wheel.top.best.online.money.make.techyunk.com.earningwheel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638681488269-53ql3jln1gqeuljlgh77h4tacdvsp88r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wheel.top.best.online.money.make.techyunk.com.earningwheel",
+            "certificate_hash": "4a7c1bf4ce604f23f9fdd55fd863cdadbc5e95b6"
+          }
+        },
+        {
+          "client_id": "638681488269-tmm7v27ll0i73eim7t7ho7ff6no0pppi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbcngxoYXshIAfHNI-uFADgizeqgL_wEI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638681488269-tmm7v27ll0i73eim7t7ho7ff6no0pppi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

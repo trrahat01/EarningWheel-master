@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/back"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wheel.top.best.online.money.make.techyunk.com.earningwheel.Register">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/register_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:src="@drawable/person"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
+
+
+    <EditText
+        android:id="@+id/register_name"
+        android:layout_width="wrap_content"
+
+        android:layout_height="50dp"
+        android:layout_above="@+id/register_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/selector"
+        android:ems="10"
+        android:hint="name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+       />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:textColor="#FFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_above="@+id/register_password"
+        android:layout_alignStart="@+id/register_password"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/selector"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="#FFFF"
+        android:layout_above="@+id/register_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/selector"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:background="#e42002"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="already register?"
+        android:textColor="#eae70c"
+        android:textStyle="bold" />
+
+</RelativeLayout>
